@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>PokeAPI Test</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="search-box">
+            <input type="text" id="pokemon-input" placeholder="Example: Ditto, 3">
+            <button id="search-btn">🔍</button>
+        </div>
+
+    <div id="error-message" class="hidden"></div>
+
+    <div id="result-container" class="hidden">
+        <div class="pokemon-card">
+            <p class="pokemon-id" id="poke-id"></p>
+            <h2 class="pokemon-name" id="poke-name"></h2>
+            <img id="poke-img" src="" alt="Pokemon Image">
+            <div class="pokemon-types" id="poke-types"></div>
+            <div class="pokemon-stats" id="poke-stats"></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
